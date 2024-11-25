@@ -5,6 +5,7 @@ import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import HireMeModal from '../HireMeModal';
 import logoLight from '../../images/logo-light.svg';
 import logoDark from '../../images/logo-dark.svg';
+import nameSymbo from '../../images/letter-e.png';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
 
@@ -48,14 +49,18 @@ const AppHeader = () => {
 					<div>
 						<Link to="/">
 							{activeTheme === 'dark' ? (
-								<img
-									src={logoDark}
+								<>
+									<img
+									src={nameSymbo}
 									className="w-36"
 									alt="Dark Logo"
 								/>
+								<span>Evanson</span>
+								</>
+								
 							) : (
 								<img
-									src={logoLight}
+									src={nameSymbo}
 									className="w-36"
 									alt="Dark Logo"
 								/>

@@ -38,7 +38,7 @@ export const singleProjectData = {
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
+		ClientHeading: 'Aboutt Client',
 		CompanyInfo: [
 			{
 				id: 1,
